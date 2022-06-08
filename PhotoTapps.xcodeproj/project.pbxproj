@@ -13,6 +13,7 @@
 		411204CB284F679B0083ABF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411204CA284F679B0083ABF2 /* Assets.xcassets */; };
 		411204CE284F679B0083ABF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411204CC284F679B0083ABF2 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = ("†", ); }; };
 		411204DD284F6A8D0083ABF2 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411204DC284F6A8D0083ABF2 /* PhotosCollectionViewController.swift */; };
+		41AA605A2850D6BD00E71CF6 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA60592850D6BD00E71CF6 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		411204CD284F679B0083ABF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		411204CF284F679B0083ABF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		411204DC284F6A8D0083ABF2 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		41AA60592850D6BD00E71CF6 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				411204DC284F6A8D0083ABF2 /* PhotosCollectionViewController.swift */,
+				41AA60592850D6BD00E71CF6 /* PhotoCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41AA605A2850D6BD00E71CF6 /* PhotoCell.swift in Sources */,
 				411204DD284F6A8D0083ABF2 /* PhotosCollectionViewController.swift in Sources */,
 				411204C2284F679A0083ABF2 /* AppDelegate.swift in Sources */,
 				411204C4284F679A0083ABF2 /* SceneDelegate.swift in Sources */,
